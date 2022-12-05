@@ -1,0 +1,149 @@
+@import "./fonts.css" ;
+
+body {
+    width: 100%;
+    background: #3399CC;
+    border: 25px solid #2B81AC;
+    cursor: pointer;
+    font-family: 'Julius Sans One', sans-serif;
+}
+* { box-sizing: border-box;
+    transition: all .1s ease-in;
+}
+.header {
+    margin: 60px 0 35px 150px;
+}
+h1 {
+    font-size: 21px;
+    line-height: 25px;
+    color: #FFFFFF;
+    display: inline-block;
+    
+}
+.title-icon {
+    font-weight: 400;
+    font-size: 27px;
+    line-height: 39px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+h2 {
+    font-size: 22px;
+    line-height: 26px;
+    color: #FFFFFF;
+}
+p {
+    display: inline-block;
+    font-size: 22px;
+    line-height: 26px;
+    color: rgba(255, 255, 255, 0.7);
+}
+.wi {
+    color: rgba(255, 255, 255, 0.7);
+    width: 35px;
+    height: 34px;
+    padding-left: 4px;
+    font-weight: 400;
+    font-size: 42px;
+    line-height: 61px;
+    padding-left: 10px;
+}
+.weather__container {
+    width: 100%;
+    height: 592px;
+    font-size: 0;
+    width: 1170px;
+    margin: 0 auto;
+   
+}
+.weather__list {
+    display: inline-block;
+    padding: 0;
+    text-align: center;
+}
+.weather__list--item {
+    list-style: none;
+    border: 2px solid #FFFFFF;
+    height: 147px;
+    width: 291.5px;
+    opacity: 0.3;
+    cursor: pointer;
+}
+.lisbon {
+    background: #3399CC;
+    height: 147px;
+    width: 583px;
+}
+.lisbon:hover {
+    opacity:1;
+}
+.paris {
+    background: #33CCCC;
+}
+.paris:hover {
+    opacity:1;
+}
+.belgrade {
+    background: #996699;
+}
+.belgrade:hover {
+    opacity:1;
+}
+.venice {
+    background: #C24747;
+}
+.venice:hover {
+    opacity:1;
+}
+.Tel-Avive {
+    background: #E2674A;
+}
+.Tel-Avive:hover {
+    opacity:1;
+}
+.Cair {
+    background: #FFCC66;
+}
+.Cair:hover {
+    opacity:1;
+}
+.New-York {
+    background: #99CC99;
+}
+.New-York:hover {
+    opacity:1;
+}
+.New-Delhi {
+    background: #669999;
+}
+.New-Delhi:hover {
+    opacity:1;
+}
+.San-Francisco {
+    background: #CC6699;
+    height: 147px;
+    width: 583px;
+}
+.San-Francisco:hover {
+    opacity:1;
+}
+.Tokyo {
+    background: #339966;
+}
+.Tokyo:hover {
+    opacity:1;
+}
+.Sydney {
+    background: #666699;
+    height: 147px;
+    width: 1166px;
+}
+.Sydney:hover {
+    opacity:1;
+}
+.footer__text {
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+    margin: 35px 0 119px 150px;
+}
